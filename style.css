@@ -1,0 +1,173 @@
+@font-face {
+    font-family: idroid ;
+    src: url(fontes/idroid.otf);
+}
+
+
+body{
+    background-color: #84E1AD;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+main p{
+    text-align: justify;
+    text-indent: 20px;
+    line-height: 1.5em;
+}
+
+main strong{
+    font-weight: bold;
+    color: #185B37;
+}
+
+main a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #84E1AD;
+    padding: 3px 6px;
+    color: #185B37;
+}
+
+main a:hover{
+    text-decoration: underline;
+    color: #20794a;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #2d8b59 50%, #20794a);
+    padding: 10px;
+    color: white;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.288);
+}
+
+h1{
+    font-family:'idroid' ;
+    color: #185B37;
+}
+
+h2{
+    font-family: 'idroid';
+    color: #185B37;
+    background-image: linear-gradient(to right, #C8ECD8 , transparent);
+    padding: 2px;
+}
+
+nav >  a{
+    color: white;
+    text-align: left;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav > a:hover{
+   background-color:#84E1AD ;
+   color: white;
+   border-radius: 5px;
+}
+
+.principal{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    
+}
+
+main{
+    max-width: 800px;
+    min-width: 400px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.37);
+    
+}
+
+#imgmeio{
+
+    text-align: center;
+}
+
+#video{
+    background-color: #185B37;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+
+}
+   
+    
+
+footer{
+    background-color: #185B37;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    
+}
+
+footer > p{
+    margin: 0px;
+    text-align: center;
+}
+
+#cabeca{
+    margin-top: 20px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    color: white;
+    padding: 10px;
+}
+
+#cabeca > h3{
+    margin: 0px;
+}
+
+#textoprincipal{
+    background-color: #C5EBD6;
+    margin: auto;
+    width: auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+li::before{
+    content: '  ✔';
+}
+
+
+.lista1 > ul > li{
+    list-style: none;
+}
+
+.lista1{
+    columns: 2;
+}
+
+.img100 > img{
+    width: 100%;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+footer a:hover{
+    color: #84E1AD;
+}
+
+.linke::after{
+    content:'\1F517' ;
+}
